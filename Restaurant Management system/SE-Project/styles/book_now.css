@@ -1,0 +1,70 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+      }
+      
+      .bg {
+        background-image: url(../image/book_now_bg.jpg);
+        background-size: cover;
+        background-position: top center;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        padding-left: 50px;
+        padding-top: 15px;
+        padding-right: 50px;
+        padding-bottom: 15px;
+      }
+      
+      .book-now {
+        margin: 9px 0 0 0;
+        display: inline-block;
+        overflow-wrap: break-word;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 45px;
+        color: #FFFFFF;
+      }
+      
+      .container-1 {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        box-sizing: border-box;
+      }
+      
+      .container-2 {
+        position: relative;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        box-sizing: border-box;
+      }
+      
+      .container-3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        box-sizing: border-box;
+      }
+      
+      .container-3 form {
+        background: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      
+      footer {
+        padding: 3rem 0;
+        text-align: center;
+        background: #000;
+        color: #fff;
+        font-size: 1.2rem;
+        font-weight: bold;
+      }
+      

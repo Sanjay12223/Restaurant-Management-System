@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" href="image/logo-2.png" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Management System</title>
+  <link rel="stylesheet" href="../styles/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Varela&family=Varela+Round&display=swap" rel="stylesheet">
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+</head>
+<body>
+
+  <!--Home--> 
+  <div class="main">
+     <nav>
+        <img src="../image/logo-2.png" class="logo">
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="figma.html">MENU</a></li>
+            <li><a href="#about" data-after="about">ABOUT</a></li>
+            <li><a href="#contact" data-after="contact">CONTACT</a></li>
+        </ul>
+     </nav>
+     <div class="title">
+       <h1>A TASTE OF PARIS</h1>
+       <a href="figma.html" class="button">menu</a>
+     </div>
+
+  </div>
+
+   <!-- End the Home--> 
+
+   <!-- About page -->
+  <section id="about" class="about-sec">
+    <h2 class="head">About</h2>
+    <div class="about-content">
+        <div class="management">
+            <h3>Restaurant management</h3>
+            <p class="main-matter">Restaurant management encompasses overseeing all operational facets to ensure efficiency and profitability. It involves personnel management, customer service excellence, menu planning, inventory control, financial oversight, marketing, and compliance with health and safety standards. Successful management requires strong leadership, organizational skills, and attention to detail to deliver exceptional dining experiences while achieving financial goals.</p>
+        </div>
+        <div class="map">
+            <!-- Google Maps Location -->
+            <div id="map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3636.8919616778508!2d80.505748674913!3d16.464919884273414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35f253b87d44b3%3A0x591c2967f32abc19!2sSRM%20University%20AP!5e1!3m2!1sen!2sin!4v1713258636447!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            
+            </div>
+         </div>
+     </div>
+  </section>
+
+<!-- contact page-->
+<div id="contact"class="container">
+  <h1 class="contact-head">Contact</h1>
+  <div class="contact-info">
+    <!-- Additional content goes here -->
+  </div>
+  <div class="contact-content">
+    <div class="contact-form">
+      <h2>Contact Us</h2>
+      <div class="form-group">
+        <label for="restaurantName">Restaurant Name:</label>
+        <span id="restaurantName">SRM CAFETERIA</span>
+      </div>
+      <div class="form-group">
+        <label for="address">Address:</label>
+        <span id="address">Amaravati, Andhra Pradesh</span>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <span id="email">srmapuniversity@gmail.com</span>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number:</label>
+        <span id="phone">+91 863 234 3000</span>
+      </div>
+      <div class="form-group">
+        <label for="bookingTimes">Booking Times:</label>
+        <span id="bookingTimes">11:00AM - 10:30PM</span>
+      </div>
+    </div>
+    <div class="social-buttons">
+      <a href="https://www.facebook.com/"><button class="facebook">Facebook</button></a>
+      <a href="https://www.instagram.com/"><button class="instagram">Instagram</button></a>
+      <a href="https://x.com/?lang=en"><button class="twitter">Twitter</button></a>
+      <a href="https://www.youtube.com/ "><button class="youtube">YouTube</button></a>
+      <a href="https://www.google.com/maps"><button class="google-maps">Maps</button></a>
+    </div>
+  </div>
+</div>
+
+<!-- end contact page-->
+
+  <script src="../script/script.js"></script>
+</body>
+</html>
